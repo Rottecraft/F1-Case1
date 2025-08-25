@@ -1,17 +1,12 @@
-
+import basicLayout from "./Components/BasicLayout/BasicLayout.jsx"
 
 
 function App() {
   return(
   <> 
-    <Header/>
-    <Body/>
-    <Footer/>
+    <basicLayout/>
   </>
-//to run this app, type 'cd f1case1', then 'npm run dev'
-  );
- 
- 
+  ); 
 }
 
 export default App
