@@ -38,4 +38,21 @@
     height: 10%;
     width: 100%;
     background-color: #2B2B2B;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.footerTextContainer {
+    color: white;
+    font-size: 1.5rem;  
+
+    width: 50%;
+}
+
+.counterBox {
+    width: 50%;
+
+    color: white;
+    font-size: 1.3rem;
 }
