@@ -14,7 +14,14 @@ export default function VideoContainer(){
 
 
            <div className={styles.basicLayoutFooter}>
+                <div className={styles.footerTextContainer}>
+                    <p>Copyright @ 2025 Fast Cars, Inc.</p>
+                    <p>CVR: 65927514</p>
+                </div>
 
+                <div className={styles.counterBox}>
+                    <p>Counter: 1929</p>
+                </div>
            </div>
         </div>
     )
