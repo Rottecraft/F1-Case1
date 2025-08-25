@@ -1,10 +1,10 @@
-import basicLayout from "./Components/BasicLayout/BasicLayout.jsx"
+import BasicLayout from "./Components/BasicLayout/BasicLayout.jsx"
 
 
 function App() {
   return(
   <> 
-    <basicLayout/>
+    <BasicLayout />
   </>
   ); 
 }
