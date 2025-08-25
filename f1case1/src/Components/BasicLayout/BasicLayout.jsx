@@ -1,3 +1,9 @@
 import styles from './BasicLayout.module.css'
 
-className={styles.videoContainer} 
+export default function VideoContainer(){
+    return(
+        <div className={styles.VideoContainer}  
+           
+        > </div>
+    )
+}
