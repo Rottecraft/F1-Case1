@@ -1,4 +1,5 @@
 import styles from './BasicLayout.module.css'
+import PointTable from '../PointTable/PointTable.jsx'
 
 export default function VideoContainer(){
     return(
@@ -20,7 +21,7 @@ export default function VideoContainer(){
                     </div>
 
                     <div className={styles.pointTable}>
-
+                        <PointTable />
                     </div>
                 </div>
 
