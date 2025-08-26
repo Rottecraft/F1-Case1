@@ -21,6 +21,7 @@ export default function VideoContainer(){
                     </div>
 
                     <div className={styles.pointTable}>
+                        <PointTable/>
                     </div>
                 </div>
 
