@@ -20,11 +20,11 @@ export default function VideoContainer(){
                     </div>
 
                     <div className={styles.pointTable}>
-
                     </div>
                 </div>
 
                 <div className={styles.videoContainer}>
+                    <p>Videos</p>
                     <iframe 
                         src="https://www.youtube.com/embed/UYh8ATF8L0c" 
                         title="YouTube video player" 

@@ -6,7 +6,7 @@ import AdminLogin from "./Components/AdminLogin/AdminLogin.jsx"
 function App() {
   return(
   <> 
-    <AdminLogin />
+    <BasicLayout />
     
   </>
   ); 
