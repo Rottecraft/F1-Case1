@@ -1,6 +1,8 @@
 import styles from './BasicLayout.module.css'
 import PointTable from '../PointTable/PointTable.jsx'
 
+import TeamTable from "../TeamTable/TeamTable.jsx"
+
 export default function VideoContainer(){
     return(
         <div className={styles.basicLayoutContainer} >   
@@ -18,6 +20,7 @@ export default function VideoContainer(){
            <div className={styles.basicLayoutBody}>
                 <div className={styles.topBodyContainer}>
                     <div className={styles.teamTable}>
+                        <TeamTable />
                     </div>
 
                     <div className={styles.pointTable}>
