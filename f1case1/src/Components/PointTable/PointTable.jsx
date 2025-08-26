@@ -47,16 +47,40 @@ export default function PointTable(){
                     <div className={styles.NameBox}>
                         <ul>
                             <li>
-                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/redbull-racing.png" alt="Red Bull Racing" />
+                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/mclaren.png" alt="McLaren" />
+                                <p>Norris</p>
+                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                            </li>
+                            <li>
+                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/redbull.png" alt="Red Bull Racing" />
                                 <p>Verstappen</p>
                                 <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
                             </li>
-                            <li><p>Hamilton</p></li>
-                            <li><p>Leclerc</p></li>
-                            <li><p>Alonso</p></li>
-                            <li><p>Sainz</p></li>
-                            <li><p>Name 6</p></li>
-                            <li><p>Name 7</p></li>
+                            <li>
+                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/ferrari.png" alt="Ferrari" />
+                                <p>Hamilton</p>
+                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                            </li>
+                            <li>
+                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/McLaren.png" alt="McLaren" />
+                                <p>Piastri</p>
+                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                            </li>
+                            <li>
+                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/redbull.png" alt="Red Bull Racing" />
+                                <p>Tsunoda</p>
+                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                            </li>
+                            <li>
+                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/aston-martin.png" alt="Aston Martin" />
+                                <p>Alonso</p>
+                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                            </li>
+                            <li>
+                                <img className={styles.TeamLogo} src="src/assets/TeamLogo/Mercedes.png" alt="Mercedes" />
+                                <p>Antonelli</p>
+                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                            </li>
                         </ul>
                     </div>
                 </div>

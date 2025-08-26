@@ -3,7 +3,7 @@ import PointTable from '../PointTable/PointTable.jsx'
 
 import TeamTable from "../TeamTable/TeamTable.jsx"
 
-export default function VideoContainer(){
+export default function BasicLayout(){
     return(
         <div className={styles.basicLayoutContainer} >   
            <div className={styles.basicLayoutHeader}>
