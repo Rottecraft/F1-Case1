@@ -74,15 +74,16 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .teamTable {
     background-color: green;
 
     height: 80%;
-    width: 45%;
+    width: 35%;
 
-    margin: 5rem 0 0 3.5rem; 
+    margin: 5rem 0 0 5rem;
 }
 
 
@@ -92,7 +93,7 @@
     height: 80%;
     width: 45%;
 
-    margin: 5rem 0 0 2.5rem;
+    margin: 5rem 5rem 0 0;
 }
 
 .videoContainer {

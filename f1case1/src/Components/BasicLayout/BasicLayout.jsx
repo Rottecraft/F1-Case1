@@ -5,8 +5,11 @@ import styles from './BasicLayout.module.css'
 import { useState } from "react";
 
 
+import PointTable from '../PointTable/PointTable.jsx'
 
-export default function VideoContainer(){
+import TeamTable from "../TeamTable/TeamTable.jsx"
+
+export default function BasicLayout(){
 
       const [redirect, setRedirect] = useState(false);
       if (redirect) { 
@@ -30,9 +33,11 @@ export default function VideoContainer(){
            <div className={styles.basicLayoutBody}>
                 <div className={styles.topBodyContainer}>
                     <div className={styles.teamTable}>
+                        <TeamTable />
                     </div>
 
                     <div className={styles.pointTable}>
+                        <PointTable/>
                     </div>
                 </div>
 
