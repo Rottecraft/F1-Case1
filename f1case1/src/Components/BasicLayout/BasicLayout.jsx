@@ -1,6 +1,17 @@
+
+import { Navigate } from "react-router-dom";
+
 import styles from './BasicLayout.module.css'
+import { useState } from "react";
+
+
 
 export default function VideoContainer(){
+
+      const [redirect, setRedirect] = useState(false);
+      if (redirect) { 
+      return ( <Navigate to="/adminlogin" />);
+    }
     return(
         <div className={styles.basicLayoutContainer} >   
            <div className={styles.basicLayoutHeader}>
@@ -9,7 +20,9 @@ export default function VideoContainer(){
                 </div> 
 
                 <div className={styles.loginButtonContainer}>
-                    <button>Login</button>
+                      <form className={styles.AdminLoginPopup} onSubmit={(e) => {e.preventDefault();setRedirect(true)}}>
+                        <button className="loginBtn" type="submit">Login</button>
+                      </form>
                 </div>
            </div>
 
