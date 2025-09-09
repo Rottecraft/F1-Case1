@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Navigate } from "react-router-dom";
 
 export default function AdminLogin() {
+  
  
   const [username, setUsername] = useState(""); //empty text
   const [password, setPassword] = useState("");
@@ -31,7 +32,9 @@ export default function AdminLogin() {
     }
 
   return (
+    
     <div className={styles.Container}>
+      
       <form className={styles.AdminLoginPopup} onSubmit={handleLogin}>
         <label>Username:</label>
         <input value={username} onChange={(e) => setUsername(e.target.value)} className="usernameInput" type="text"placeholder="Enter username"/>

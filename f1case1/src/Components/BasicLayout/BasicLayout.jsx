@@ -4,7 +4,7 @@ import TeamTable from "../TeamTable/TeamTable.jsx";
 import PointTable from "../PointTable/PointTable.jsx";
 import styles from './BasicLayout.module.css'
 import { useState } from "react";
-import { Navigate } from "react-router-dom";
+
 
 
 
