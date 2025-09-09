@@ -1,8 +1,7 @@
-
-import { Navigate } from "react-router-dom";
-
 import styles from './BasicLayout.module.css'
 import { useState } from "react";
+import { Navigate } from "react-router-dom";
+
 
 
 
@@ -11,7 +10,7 @@ export default function VideoContainer(){
       const [redirect, setRedirect] = useState(false);
       if (redirect) { 
       return ( <Navigate to="/adminlogin" />);
-    }
+      }
     return(
         <div className={styles.basicLayoutContainer} >   
            <div className={styles.basicLayoutHeader}>

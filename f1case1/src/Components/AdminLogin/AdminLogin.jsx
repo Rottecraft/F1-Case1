@@ -4,9 +4,9 @@ import { Navigate } from "react-router-dom";
 
 export default function AdminLogin() {
  
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState(""); //empty text
   const [password, setPassword] = useState("");
-  const [loginStatus, setLoginStatus] = useState(null); 
+  const [loginStatus, setLoginStatus] = useState(null); //nothing happened yet 
   const [redirect, setRedirect] = useState(false);
   const handleLogin = (e) => {
     e.preventDefault();
