@@ -49,7 +49,7 @@ export default function PointTable(){
                             <li>
                                 <img className={styles.TeamLogo} src="src/assets/TeamLogo/mclaren.png" alt="McLaren" />
                                 <p>Norris</p>
-                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                                <img className={styles.Driver} src='src/assets/Drivers/Norris.png' alt='Norris'/>
                             </li>
                             <li>
                                 <img className={styles.TeamLogo} src="src/assets/TeamLogo/redbull.png" alt="Red Bull Racing" />
@@ -59,27 +59,27 @@ export default function PointTable(){
                             <li>
                                 <img className={styles.TeamLogo} src="src/assets/TeamLogo/ferrari.png" alt="Ferrari" />
                                 <p>Hamilton</p>
-                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                                <img className={styles.Driver} src='src/assets/Drivers/Hamilton.png' alt='Hamilton'/>
                             </li>
                             <li>
                                 <img className={styles.TeamLogo} src="src/assets/TeamLogo/McLaren.png" alt="McLaren" />
                                 <p>Piastri</p>
-                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                                <img className={styles.Driver} src='src/assets/Drivers/Piastri.png' alt='Piastri'/>
                             </li>
                             <li>
                                 <img className={styles.TeamLogo} src="src/assets/TeamLogo/redbull.png" alt="Red Bull Racing" />
                                 <p>Tsunoda</p>
-                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                                <img className={styles.Driver} src='src/assets/Drivers/Tsunoda.png' alt='Tsunoda'/>
                             </li>
                             <li>
                                 <img className={styles.TeamLogo} src="src/assets/TeamLogo/aston-martin.png" alt="Aston Martin" />
                                 <p>Alonso</p>
-                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                                <img className={styles.Driver} src='src/assets/Drivers/Alsonso.png' alt='Alonso'/>
                             </li>
                             <li>
                                 <img className={styles.TeamLogo} src="src/assets/TeamLogo/Mercedes.png" alt="Mercedes" />
                                 <p>Antonelli</p>
-                                <img className={styles.Driver} src='src/assets/Drivers/verstappen.png' alt='Verstappen'/>
+                                <img className={styles.Driver} src='src/assets/Drivers/Antonelli.png' alt='Antonelli'/>
                             </li>
                         </ul>
                     </div>
@@ -87,13 +87,13 @@ export default function PointTable(){
                 <div className={styles.RightColumn}>
                     <div className={styles.PointsBox}>
                         <ul>
-                            <li><p>10</p></li>
-                            <li><p>20</p></li>
-                            <li><p>30</p></li>
-                            <li><p>40</p></li>
-                            <li><p>50</p></li>
-                            <li><p>60</p></li>
-                            <li><p>70</p></li>
+                            <li><p>192</p></li>
+                            <li><p>180</p></li>
+                            <li><p>165</p></li>
+                            <li><p>120</p></li>
+                            <li><p>111</p></li>
+                            <li><p>106</p></li>
+                            <li><p>92</p></li>
                         </ul>
                     </div>
                 </div>

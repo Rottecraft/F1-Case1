@@ -139,3 +139,32 @@
     width: 5rem;
     height: 5rem;
 }
+
+/* ALL CAR ROWS */
+.ferrariRow {
+    background-color: #DC0000; /* Ferrari Red */
+}
+
+.mclarenRow {
+    background-color: #FF8700; /* McLaren Orange */
+}
+
+.mercedesRow {
+    background-color: #00D2BE; /* Mercedes Teal */
+}
+
+.redbullRow {
+    background-color: #1E41FF; /* Red Bull Blue */
+}
+
+.alpineRow {
+    background-color: #0090FF; /* Alpine Blue */
+}
+
+.astonmartinRow {
+    background-color: #157956; /* Aston Martin Green */
+}
+
+.kicksauberRow {
+    background-color: #019d09; /* Kick Sauber Blue */
+}
