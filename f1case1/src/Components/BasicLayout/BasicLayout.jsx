@@ -1,6 +1,7 @@
 
 import { Navigate } from "react-router-dom";
-
+import TeamTable from "../TeamTable/TeamTable.jsx";
+import PointTable from "../PointTable/PointTable.jsx";
 import styles from './BasicLayout.module.css'
 import { useState } from "react";
 
@@ -30,9 +31,11 @@ export default function VideoContainer(){
            <div className={styles.basicLayoutBody}>
                 <div className={styles.topBodyContainer}>
                     <div className={styles.teamTable}>
+                        <TeamTable />
                     </div>
 
                     <div className={styles.pointTable}>
+                        <PointTable />
                     </div>
                 </div>
 
